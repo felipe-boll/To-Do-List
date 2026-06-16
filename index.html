@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="todo-container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+            <p id="counter-container">Tarefas pendentes: <span id="task-counter">0</span></p>
+        </header>
+
+        <section class="input-section">
+            <input type="text" id="task-input" placeholder="Digite uma nova tarefa..." autocomplete="off">
+            <button id="add-btn">Adicionar</button>
+        </section>
+
+        <section class="list-section">
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
